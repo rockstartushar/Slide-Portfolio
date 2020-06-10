@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background: #040303;
+  text-align: right;
+  padding: 15px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+#intro-part {
+  background-image: url('rv.jpg');
+  background-size: 360px 600px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#line1,#line2,#line3 {
+  display: none;
+}
+#contact-areas {
+  text-align: center;
+  background: #a9a9ea;
+}
+#contact-areas div {
+  padding: 50px 0px 10px 0px;
+}
+#contact-areas a {
+  border-radius: 100px;
+  background: red;
+  padding: 50px;
+
+}
+#contact-areas a img {
+  width: 40px;
+  height: 40px;
+}
+#contact-areas p {
+  margin-top: 50px;
+}
+#projects {
+  display: none;
+}
+#achievements {
+  display: none;
+}
+#contact {
+  display: none;
+}
